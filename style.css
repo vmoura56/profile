@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;900&display=swap');
+
+body {
+  color: #32292f;
+  background: #F0F7F4
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.card {
+  font-family: 'Inconsolata';
+  font-weight: 500;
+  text-align: center;
+  background: cadetblue;
+  color: #32292f;
+  margin: 30px;
+  padding: 30px;
+  box-shadow: 2px, 2px, 3px, black;
+  border-radius: 10px;
+}
+
+.pic-round {
+  border-radius: 100px;
+  width: 300px;
+  height: auto;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .pic-round {
+    width: 150px;
+    height: auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .pic-round {
+    width: 100px;
+    height: auto;
+  }
+}
+
+.button-brown {
+  margin: 0 auto;
+  background: #705d56;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button-brown:hover {
+  background: #32292f;
+  box-shadow: 0 0 5px #ffee10;
+  transition: 0.3s;
+}
+
+.link-text-white {
+  color: #F0F7F4;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  color: aqua;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px
+}
+
